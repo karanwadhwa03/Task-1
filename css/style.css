@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.SiteArea{
+    max-width: 1300px;
+    margin:0 auto;
+}
+
+.Border{
+    border: 2px solid red;
+}
+
+.FullPageBackground{
+    background: url('./../images/bg.jpg')  no-repeat center;
+    background-size: cover;
+    height: 100vh; 
+    width: 100wh;
+}
+.BoxAtCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px;
+}
+
+.BoxAtCenter h1{
+    letter-spacing: 14px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #353535;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.BoxAtCenter span{
+    color: #505050;
+}
+
+.BoxAtCenter p{
+    letter-spacing: 1.4px;
+    color: #696969;
+    font-size: 14px;
+}
+
+.BoxAtCenter a{
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 60px;
+    background: #B8B8B8;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 3px 0px 0px #309383;
+}
+.BoxAtCenter a:hover{
+    background-color: #D0D0D0;
+    transition: .2s linear;
+}
+.ContentSection{
+    background-color: #E8E8E8;
+    padding: 100px 0; 
+    text-align: center;
+    
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.ContentSection p{
+    padding: 0 150px;
+    line-height: 160%;
+    word-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.FeatureSection{
+    text-align: center;
+    padding: 100px 0; 
+    font-size: 0;
+}
+.FeatureCols{
+    width: 33.3%;
+    float: left;
+    padding:  15px;
+    font-size: 16px;
+}
+
+.cl{
+    clear: both;
+}
+.IconBox{
+    height: 150px;
+    width: 150px;
+    background-color: #D0D0D0;
+    border-radius: 50%;
+    line-height: 150px;
+    margin: 20px auto 40px;
+    font-size: 40px;
+    color: white;
+
+}
+i{
+    text-shadow: 1px 0px 4px #353535;
+}
+
+
+h3{
+    color: #353535;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.line{
+    padding: 1px;
+    width: 50px;
+    border: 1px solid #353535;
+    margin: 0 auto 20px;
+
+}
+
+.FeatureCols p{
+    letter-spacing: 1.4px;
+    color: #303030;
+    word-spacing: 1px;
+    line-height: 150%;
+}
+
